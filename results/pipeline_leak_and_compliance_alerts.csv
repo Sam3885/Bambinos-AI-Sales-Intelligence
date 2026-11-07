@@ -1,0 +1,11 @@
+lead_code,severity,finding,required_action
+LEAD-803,CRITICAL,"False outcome guarantees, false refund promise, unauthorized 42.1% discount, coercive blacklist threat, 1:1 misrepresentation, parent do-not-call request",Immediate manager/compliance escalation; suppress all sales contact; invalidate unauthorized link; preserve evidence.
+LEAD-804,HIGH,Payment succeeded but CRM remains Payment_Link_Sent,Update Enrolled_Paid; stop sales cadence; reconcile order 99404.
+LEAD-802,HIGH,"Order row lists AED 12,000 standard and AED 1,100 net after AED 100 discount, while official policy lists AED 1,200 GCC fee; order arithmetic and currency scale are inconsistent",Do not rely on order amount; finance/ops must reconcile source invoice before sending a payment link or quoting a fee.
+LEAD-805,MEDIUM,Installment 1 payment failed due to UPI mandate OTP timeout,Payment support only; offer secure retry/alternate approved method; no duplicate charge.
+LEAD-806,HIGH,Child distress/age mismatch ignored; unsupported 40% outcome claim; coercive recommendation; rubric gaming,Manager + academic review; no payment push; verify age 5–6 micro-batch or bridge session.
+LEAD-809,MEDIUM,UK Stripe payment failed due to 3DS issuer decline,Payment support; secure retry; do not request credentials in WhatsApp.
+LEAD-807,HIGH,High-intent demo not called; 5/5 engagement and explicit batch-start question,Priority callback by assigned counsellor.
+LEAD-812,HIGH,High-intent demo not called; 5/5 engagement and strong parent involvement,Priority callback; confirm age-appropriate teen track.
+LEAD-811,MEDIUM,Duplicate of LEAD-801 based on same student_id/user_id/mobile,Merge into canonical lead 801; suppress duplicate outreach.
+LEAD-810,MEDIUM,next_followup_at predates last_call_at,Correct stale follow-up date and review activity history.

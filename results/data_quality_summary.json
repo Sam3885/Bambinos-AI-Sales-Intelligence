@@ -1,0 +1,12 @@
+{
+  "crm_leads": 12,
+  "demo_evaluations": 11,
+  "call_logs": 6,
+  "orders": 6,
+  "transcripts": 6,
+  "crm_duplicate_student_ids": 2,
+  "leads_without_call_log": 6,
+  "leads_without_demo": 1,
+  "orders_paid": 1,
+  "orders_failed": 2
+}
